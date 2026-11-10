@@ -1,16 +1,16 @@
-# 🚀 Staj Radar - İş ve Staj İlanı Veri Toplama Motoru
+#  Staj Radar - İş ve Staj İlanı Veri Toplama Motoru
 
 **Staj Radar**, Youthall, Kariyer.net ve LinkedIn gibi popüler platformlardaki iş ve staj ilanlarını otomatik olarak toplayan, verileri temizleyip üniversite bölümlerine göre kategorize eden ve mobil/masaüstü uygulamalara veri sağlayan **modüler Python arka plan (backend) sistemidir**.
 
 ---
 
-## 🎯 Projenin Amacı
+##  Projenin Amacı
 
 Öğrencilerin ve yeni mezunların kendilerine en uygun staj ve iş fırsatlarını tek bir platform üzerinden, kendi bölümlerine ve ilgi alanlarına göre ayrıştırılmış olarak bulabilmelerini sağlamak amacıyla kararlı, hataya dayanıklı ve ölçeklenebilir bir veri altyapısı sunar.
 
 ---
 
-## 🛠️ Mimari ve Öne Çıkan Özellikler
+##  Mimari ve Öne Çıkan Özellikler
 
 * **Modüler Scraper Mimarisi (`BaseScraper`)**: Yeni platformların (Toptalent vb.) sisteme kolayca entegre edilmesini sağlayan genişletilebilir yapı.
 * **Tip Güvenliği ve Doğrulama (`Pydantic v2`)**: Sitelere erişilerek çekilen verilerin standart kalıplardan geçirilerek doğrulanması.
@@ -23,7 +23,7 @@
 
 ---
 
-## 📂 Proje Klasör Anatomisi
+##  Proje Klasör Anatomisi
 
 ```text
 staj_radar/
@@ -42,7 +42,7 @@ staj_radar/
 
 ---
 
-## 💻 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ### 1. Depoyu Klonlayın
 ```bash
@@ -74,5 +74,5 @@ python3 test_step1.py
 
 ---
 
-## 📄 Lisans
+##  Lisans
 Bu proje geliştirme aşamasındadır. Tüm hakları saklıdır.
